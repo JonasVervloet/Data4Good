@@ -24,7 +24,10 @@ def generate_table(data_frame, max_row=10):
         ]
     )
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+external_stylesheets = [
+    'https://codepen.io/chriddyp/pen/bWLwgP.css'
+]
 
 app = dash.Dash(
     __name__,
